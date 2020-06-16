@@ -2,14 +2,6 @@ body {
 	background-color: #454d54;
 }
 
-@media (min-height: 600px) {
- .parallax {
-    padding: 300px 0; 
-    background: transparent;
-}
-.container {
-  height: 100%;
-}
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 * {
   font-family: 'Roboto Condensed', sans-serif;
@@ -20,7 +12,7 @@ body {
 .parallax-wrapper {
   perspective: 1px;
   transform-style: preserve-3d;
-  height: 100vh;
+  height: 93.7vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -38,7 +30,7 @@ body {
   transform: translateZ(-1px) scale(2);
 }
 .background--spring {
-  background-image: url(http://monitoringminecraft.ru/images/g/3/odl8y469.jpg);
+  background-image: url('https://minecraftrating.ru/uploads/servers/63845/9be61c32f0b4ef9_big.jpg');
 }
 .background--summer {
   background-image: url('https://images.pexels.com/photos/375152/summer-sun-blooming-season-375152.jpeg?cs=srgb&dl=beautiful-bloom-blossom-375152.jpg&fm=jpg');
@@ -109,4 +101,3 @@ body {
      }
    }
  }
- 

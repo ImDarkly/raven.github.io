@@ -4,9 +4,6 @@
 body {
 	background-color: #454d54;
 }
-body {
-        padding-bottom: 100px;
-     }
 nav {
  box-shadow: 1px 1px 7px 1px #ffc107;
  z-index: 1;
