@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Comfortaa);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab);
+        
 body {
 	background-color: #454d54;
 }
@@ -44,6 +45,7 @@ border: 0px solid #ffc107;
 }
 .news-image img {
         width: 100%;
+        
 }
 .news-foot {
         background-color: ivory;
@@ -55,3 +57,14 @@ border: 0px solid #000000;
         text-align: center;
         padding: 10px 0 10px 0;
 }
+@media (min-width: 650px) {
+        .news-card {
+                max-width: 600px;
+        }
+}
+@media (min-width: 1050px) {
+        .news-card {
+                max-width: 1000px;
+        }
+}
+
